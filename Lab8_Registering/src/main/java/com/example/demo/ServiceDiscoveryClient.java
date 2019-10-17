@@ -17,7 +17,7 @@ public class ServiceDiscoveryClient {
     public Student getStudent(int studentId) {
         RestTemplate restTemplate = new RestTemplate();
         List<ServiceInstance> instances =
-                discoveryClient.getInstances("studentservice");
+                discoveryClient.getInstances("stdservice");
         String serviceUri = String.format("%s/v1/student/%s"
                 ,instances.get(0).getUri().toString(), studentId);
         ResponseEntity< Student > restExchange =

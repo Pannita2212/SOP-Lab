@@ -2,7 +2,7 @@ server:
   port: 9000
 spring:
   application:
-    name: studentservice
+    name: stdservice
   profiles:
     active: default
   cloud:

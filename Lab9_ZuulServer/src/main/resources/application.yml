@@ -1,0 +1,21 @@
+server:
+  port: 9090
+eureka:
+  instance:
+    preferIpAddress: true
+  client:
+    registerWithEureka: true
+    fetchRegistry: true
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
+
+zuul:
+  ignored-services: '*'
+  routes:
+    service-gateway:
+      serviceId: STDSERVICE
+#  routes:
+#    teacherservice: /teacher/**
+#    studentservice: /student/**
+#    carservice: /car/**
+#    classservice: /class/**
