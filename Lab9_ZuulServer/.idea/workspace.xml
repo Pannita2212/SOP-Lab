@@ -2,20 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0e91d01f-d0cd-451e-bab6-587bf8e6762b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/demo/ZuulServerApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/bootstrap.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/example/demo/DemoApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab8_DiscoveryClient/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab8_DiscoveryClient/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab8_Registering/src/main/java/com/example/demo/ServiceDiscoveryClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab8_Registering/src/main/java/com/example/demo/ServiceDiscoveryClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab10_Security/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab10_Security/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab10_Security/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab10_Security/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab10_Security/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab10_Security/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab10_Security/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab10_Security/src/main/java/com/example/demo/OAuth2Authentication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab10_Security/src/main/java/com/example/demo/OAuth2Config.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab10_Security/src/main/java/com/example/demo/WebSecurityConfigurer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab10_Security/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab10_Security/src/test/java/com/example/demo/OAuth2AuthenticationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -74,7 +73,9 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1571280898462</updated>
-      <workItem from="1571280901697" duration="2786000" />
+      <workItem from="1571280901697" duration="3395000" />
+      <workItem from="1572490264048" duration="675000" />
+      <workItem from="1574304748927" duration="55000" />
     </task>
     <servers />
   </component>
@@ -86,7 +87,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
