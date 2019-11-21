@@ -7,8 +7,8 @@ spring:
       bindings:
         output:
           destination: orgChangeTopic
-          content-type: application\json
+          content-type: application/json
       kafka:
         binder:
-          zk-nodes: localhost
+          zkNodes: localhost
           brokers: localhost
